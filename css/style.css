@@ -773,7 +773,8 @@
 }
 
 .sec-1-tab-inner  .sec-1-video-box video{
-    height: 583px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -852,7 +853,7 @@
 
 .sec-2-main-box .sec-2-item1 video{
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -1957,9 +1958,7 @@ footer .footer-b-6 .footer6-txt a p{
         padding: 3px  10px;
         font-size: 1.6rem;
     }
-    .sec-1-tab-inner .sec-1-video-box video{
-        height: 432px;
-    }
+
 
 
     /* sec-2 */
@@ -2155,23 +2154,24 @@ footer .footer-b-6 .footer6-txt a p{
         font-size: 1.2rem;
     }
 
-    .sec-1-tab-inner .sec-1-video-box video{
-        height: 38vh;
-    }
 
     /* sec-2 */
- 
+    .sec-2-main-box .sec-2-item3 .sec-2-inner-txt{
+        top: 25%;
+    }
+
     .sec-2-main-box .sec-2-item2 .sec-2-inner-txt .s-2-head,
     .sec-2-main-box .sec-2-item4 .sec-2-inner-txt .s-2-head,
     .sec-2-main-box .sec-2-item3 .sec-2-inner-txt .s-2-head{
         font-size: 1.8rem;
     }
-    .sec-2-main-box .sec-2-item3 .sec-2-inner-txt{
-        top: 25%;
+
+    .sec-2-main-box .sec-2-item2 .sec-2-inner-txt .s-2-button,
+    .sec-2-main-box .sec-2-item4 .sec-2-inner-txt .s-2-button,
+    .sec-2-main-box .sec-2-item3 .sec-2-inner-txt .s-2-button{
+        font-size: 1.2rem;
     }
-    .sec-2-main-box .sec-2-inner-txt .s-2-button{
-     font-size: 1.2rem;   
-    }
+
 
     /* sec-3 */
     .sec-3-2 .sec-3-2-main .sec-3-2-item1{
