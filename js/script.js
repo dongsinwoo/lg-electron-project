@@ -13,6 +13,7 @@ $(document).ready(function(){
   // active-scroll : 스크롤을 일정정도 내렸을 때 헤더 색깔 입혀짐
   // active-toggle-top : 탑버튼 위에 있는 비즈니스 버튼 토글 메뉴 입혀줌 
 
+  // active-top-btn :탑버튼 오파시티 조절 클래스 
   // active-btn : 1300이하에서 햄버거 버튼 눌렀을때 햄버거버튼 모양 바꿔줌
   // active-media : 1300px이하에서의 헤더 메뉴
 
@@ -159,6 +160,8 @@ $(document).ready(function(){
       });
 
     }else{
+      $('.header').addClass('active-media');
+
       $('.header-main li').mouseenter(function(){
 
         $('.submenu-box').removeClass('active-menu');
@@ -201,11 +204,12 @@ $(document).ready(function(){
   // 탑버튼 &스크롤
   $(window).scroll(function(){
     const btn = $('.top-btn-box');
-      if($(window).scrollTop() >=100 && $(window).scrollTop()<300 ){
+      if($(window).scrollTop() >=100 && $(window).scrollTop()<200 ){
           btn.fadeIn();
+          $('.top-btn-box').addClass('active-top-btn')
           $('.header').removeClass('active-media');
           $('#hamburger-btn').removeClass('active-btn');
-      }else  if($(window).scrollTop()>= 300){
+      }else  if($(window).scrollTop()>= 200){
           btn.fadeIn();
           $('.header').addClass('active-scroll');
           $('.header').removeClass('active-media');
