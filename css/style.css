@@ -714,7 +714,7 @@
     height: auto;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 14rem;
+    margin-top: 20rem;
 }
 
 .sec-head{
@@ -812,7 +812,7 @@
     height: auto;
     margin: 0 auto;
     text-align: center;
-    margin-top: 14rem;
+    margin-top: 28rem;
 }
 
 
@@ -856,7 +856,7 @@
 
 .sec-2-main-box .sec-2-item1 video{
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -1025,7 +1025,7 @@
     margin: 0 auto;
     background-color: #fff;
     text-align: center;
-    margin-top: 14rem;
+    margin-top: 24rem;
 }
 
 
@@ -1128,7 +1128,7 @@
 .sec-4 .container{
     width: 80%;
     height: auto;
-    margin: 8rem auto;
+    margin: 20rem auto;
     text-align: center;
     display: flex;
     justify-content: center;
